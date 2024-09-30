@@ -39,6 +39,21 @@
     background-color: #525252;
 }
 
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
+/* body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #525252;
+    color: #555555;
+} */
+
 /* ----------------------------Special paddings/margins/text */
 
 h1,
@@ -169,7 +184,9 @@ header {
 
 .hvr-sweep-to-bottom::before {
     background-color: rgba(0, 0, 0, 0.2);
+    color: #fafafa;
     height: 120px;
+    margin: 0;
 
 }
 
@@ -360,6 +377,9 @@ button[type="submit"] {
     background-color: #e84610;
 }
 
+/* -----------------------------Map */
+div#map {min-height: 360px;}
+
 /* ------------------------------Media Queries */
 @media (min-width: 992px) {
     .center-form {
@@ -368,6 +388,11 @@ button[type="submit"] {
         margin: 0 auto;
         max-width: 50%;
     }
-}
 
-#map {min-height: 360px;}
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
