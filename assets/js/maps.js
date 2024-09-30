@@ -1,3 +1,5 @@
+/* import { MarkerClusterer } from "@googlemaps/markerclusterer"; */
+
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 3,
@@ -22,5 +24,5 @@ function initMap() {
         });
     });
 
-    var markerCluster = new markerCluster(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+    var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m', });
 }
